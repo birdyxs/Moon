@@ -1,0 +1,422 @@
+#s-m-t-tooltip {
+    padding: 3.5px 9px;
+    margin: 26px 9px 0px 15px;
+    background-color: #000;
+    font-family: quicksand;
+    font-size: calc(11px - 3px);
+    text-transform: uppercase;
+    letter-spacing:1px;
+    color: #fff;
+    z-index:99999999999999999999999999998!important;
+    max-width: calc(250px * 1.25);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+::-webkit-scrollbar-thumb {
+  background-color:#767965;
+}
+ 
+::selection {
+background: #f3f3f3;
+color:#555;
+}
+ 
+::-moz-selection {
+background: #f3f3f3;
+color:#555;
+}
+ 
+body {
+background:#fdfdfd url(https://assets.tumblr.com/images/x.gif?v=1);
+background-attachment:fixed;
+background-repeat:repeat;
+color:#999;
+cursor:normal;
+font-family:Inconsolata;
+line-height:1.6em;
+font-size:11px;
+text-align:left;
+}
+ 
+blockquote {
+padding-left:10px;
+margin-left:5px;
+border-left:1px solid;
+border-color:rgba(153,153,153,0.6);
+margin:10px;
+}
+
+b, strong {font-weight:bold;color: #999;}
+ 
+.non a {
+    padding-bottom:0px!important;
+    border-bottom:0px solid transparent!important;
+}
+
+.nonn a {
+    border-bottom:0px solid transparent!important;
+}
+
+i, em, .em {color: #999;}
+
+pre, code {
+white-space:pre-wrap;
+display:block;
+}
+
+hr {
+    width:70%;
+    border-width:0px;
+    height:1px;
+    background-color:rgba(153,153,153,0.3);
+}
+
+p.npf_quirky, p.npf_quote {font-size:calc(11px + 5px);line-height:1em;}
+ 
+a {
+color:#000;
+text-decoration:none;
+cursor:normal;
+text-decoration:none;
+-webkit-transition: all 0.4s ease-in-out;
+-moz-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+}
+ 
+a:hover {text-decoration:none;}
+ 
+img {
+    opacity:1;
+    text-decoration:none;
+    border:0px solid transparent;
+}
+
+h1 {
+    margin-top:0px;
+    padding:10px;
+    background-color:#fafafa;
+    border-bottom:3px solid rgba(129,127,130,0.1);
+    color:#817f82!important;
+}
+
+h1 a {
+    color:#817f82!important;
+}
+ 
+h1, h2, h3, h4, h5, h6 {
+    font-size:calc(11px + 1px);
+    font-family:quicksand;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:#999;
+    text-align:center;
+    line-height:1.6em;
+}
+
+.pp p:first-child {margin-top:0px;}
+
+
+#yorha {
+    position:fixed;
+    bottom:0;margin-top:0px;
+    left:0;margin-left:0px;
+    width:100%;
+    height:30px;
+    background-color:#000;
+    display:table;
+    z-index:10;
+}
+
+#park {
+    display:table-cell;
+    vertical-align:middle;
+}
+
+.nines, .nines a {
+    padding:16px 0;
+    text-align:center;
+    font-family:quicksand, "KaiTi", "楷体", STKaiti, "华文楷体", serif;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-size:10px;
+    color:#fff;
+}
+
+#yolk {
+    position:fixed;
+    bottom:0;margin-top:0px;
+    left:0;margin-left:20px;
+    height:45px;
+    display:table;
+    z-index:11;
+}
+
+#pearl {
+    display:table-cell;
+    vertical-align:middle;
+}
+
+.playwrapper {display:flex;}
+
+.butts {cursor:pointer;}
+
+.playy, .pausee {
+    font-size:13px;
+    color:#fff;
+}
+
+.pausee {
+    display:none;
+    margin-right:1.5px;
+}
+
+.sonata {
+    margin-left:10px;
+    color:#fff;
+}
+
+.labeltext {
+    margin-left:8px;
+    font-family:courier new;
+    font-size:12px;
+    color:#fff;
+}
+
+#container {
+    position:absolute;
+    margin:0 auto;
+    margin-top:calc(50px + 40px);
+    top:0;left:0;right:0;
+    
+    margin-bottom:calc((20px * 2) + 37px);
+    width:calc((250px * 2) + (20px * 4) + (20px * 2) + 80px + 250px);
+    
+    
+}
+
+.semicontainer {
+    
+    margin-top:-20px;
+    margin-left:calc(-20px + 250px + 80px);
+    width:calc((250px * 2) + (20px * 4) + (20px * 5));
+    
+
+}
+
+#galaxy {
+    position:fixed;
+    top:0;margin-top:20px;
+    
+    margin-left:360px;
+    
+    width:250px;
+    text-align:center;
+}
+
+.pepper {
+    margin-top:40px;
+    width:calc(100% - 42px);
+    height:auto;
+    padding:15px;
+    border:1px solid #ebebeb;
+    vertical-align:middle;
+}
+
+.desc {
+    margin-top:15px;
+    padding:20px;
+    background-color:#000;
+    color:#eee;
+    font-size:10px;
+  text-align: center;
+}
+
+.desc a {
+    padding-bottom:1px;
+    border-bottom:0.5px solid rgba(238,238,238,0.4);
+}
+
+.desc a, .desc b, .desc i {color:#eee;}
+
+/*-----------------CUSTOM LINKS-----------------*/
+#custard {
+    position:absolute;
+    margin-top:40px;
+    margin-left:-85px;
+    width:24px;
+}
+
+.eggo {
+    margin-bottom:10px;
+    width:65px;
+    height:17px;
+    padding:1px;
+    background-color:#000;
+    border:5px double #fff;
+    border-radius:5px;
+}
+
+.eggo:hover {
+    width:65px;
+    height:17px;
+    background-color:#000;
+    border:2.5px solid #fff;
+}
+ 
+.eggo span {
+font-family: courier new;
+color: #fff;
+padding: 10px;
+font-size: 11px;
+line-height: 5px;}
+
+
+.vinegar {float:right;}
+
+/* -- Like + Reblog buttons (1/2) -- */
+/* -- mikedidthis from StackOverflow: https://stackoverflow.com/users/2312574/mikedidthis -- */
+/* -- and tutorial by shythemes: http://shythemes.tumblr.com/post/147903463743/custom-like-and-reblog-buttons -- */
+.controls {
+    margin-right:calc(-5px + 15px); /*15 = perma pad*/
+    margin-top:-18px;
+    height:0px;
+}
+ 
+.controls a {
+    position:relative;
+    display:inline-block;
+}
+ 
+/* both svg colors */
+.controls .sf {color:rgba(221,221,221,0.9);}
+ 
+.controls .rb .sf {
+    position:absolute;
+    margin-top:calc((11px - 2.5px) * -1);
+    font-size:calc(11px - 1px);
+}
+ 
+.controls .like .sf {
+    position:absolute;
+    margin-top:calc((11px - 2px) * -1);
+    margin-left:calc((11px + 4px) * -1);
+    font-size:calc(11px + 1px);
+}
+ 
+.controls .like .liked + .sf {color:#ec5a5a;}
+ 
+.controls .like .like_button {position:relative;}
+ 
+.controls .like .like_button iframe {
+   position:absolute;
+   top:0;
+   left:0;
+   bottom:0;
+   right:0;
+   z-index:2;
+   opacity:0;
+}
+
+ 
+/*---------------------------LIGHTBOXES---------------------------*/
+.vignette, #vignette {
+    opacity:0;
+}
+.lightbox-image, #tumblr_lightbox img {
+    z-index:99999999999999999999999999999 !important;
+    box-shadow:none !important;
+    border-radius:0px !important;
+    max-width:none;
+    padding:20px !important;
+    background:#fff !important;
+    border:1px solid rgba(153,153,153,0.15) !important;
+}
+ 
+.tmblr-lightbox, #tumblr_lightbox {
+    background-color:rgba(255,255,255,0.78) !important;
+    z-index:99999999999999999999999999999 !important;
+}
+ 
+ 
+/*---------------------------AUDIO---------------------------*/
+.playerbutton {
+position:absolute;
+margin-top:18.5px;
+margin-left:18.5px;
+width:27px;
+height:27px;
+overflow:hidden;
+border-radius:100%;
+}
+ 
+.trackdetails {
+width:auto;
+display:inline-block;
+margin-left:70px;
+padding:5px;
+line-height:1.7;
+}
+ 
+.trackdetails b {
+font-weight:normal;
+}
+           
+.audiowrapper {
+position:relative;
+display:inline;
+height:0px;
+}
+
+
+.sbpagi {
+    width:inherit;
+    text-align:center;
+    margin-top:10px;
+}
+ 
+.sbpagi span {
+    display:inline-block;
+    margin-left:5px;
+    padding:5px 9px;
+    background-color:#000;
+    border-radius:100%;
+    border:1px solid rgba(153,153,153,0.4);
+    font-size:calc(11px - 1px);
+    width:9px;
+    color:#999;
+    text-align:center;
+}
+ 
+.sbpagi a {
+    display:inline-block;
+    margin-left:5px;
+    padding:5px 9px;
+    background-color:#000;
+    border-radius:100%;
+    font-size:calc(11px - 1px);
+    width:9px;
+    color:#eee;
+    text-align:center;
+}
+
+#please-respect-theme-makers a {
+    position:fixed;
+    bottom:0;margin-bottom:11px;
+    right:0;margin-right:14px;
+    padding:9px;
+    background-color:#000;
+    border-radius:3px;
+    font-family:karla;
+    text-transform:uppercase;
+    line-height:1em;
+    text-align:center;
+    font-size:11px;
+    letter-spacing:1.3px;
+    color:#999;
+    z-index:99;
+}
